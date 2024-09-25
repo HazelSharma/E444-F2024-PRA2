@@ -7,7 +7,7 @@ from wtforms import StringField, SubmitField
 from wtforms.validators import DataRequired, ValidationError
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'hard to guess string'
+app.config['SECRET_KEY'] = 'hard to guess string2'
 bootstrap = Bootstrap(app)
 moment = Moment(app)
 
@@ -44,5 +44,7 @@ def index():
 def user(name):
     return render_template('user.html', name=name, current_time=datetime.utcnow())
 
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=3000)
 # <p>The local date and time is {{ moment(current_time).format('LLL') }}.</p>
 # <p>That way {{ moment(current_time).fromNow(refresh=True) }}.</p>
