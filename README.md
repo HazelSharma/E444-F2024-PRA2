@@ -2,6 +2,8 @@
 
 This repository is a clone of https://github.com/miguelgrinberg/flasky.
 
+### Activity 1.4 Screenshot
+![alt text](image.png)
 
 Flasky
 ======
