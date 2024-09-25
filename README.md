@@ -1,4 +1,5 @@
-##ECE444 PRA2
+ECE444 PRA2
+=====
 
 This repository is a clone of https://github.com/miguelgrinberg/flasky.
 
@@ -7,8 +8,6 @@ This repository is a clone of https://github.com/miguelgrinberg/flasky.
 
 Flasky
 ======
-
-Test Change...
 
 This repository contains the source code examples for the second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com).
 
